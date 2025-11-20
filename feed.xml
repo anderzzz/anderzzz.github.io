@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anders</title>
+    <description>Writing on literature, history, philosophy, and classical studies</description>
+    <link>https://anderzzz.github.io/</link>
+    <atom:link href="https://anderzzz.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>On the Necessity of Rereading</title>
+      <link>https://anderzzz.github.io/writing/example-post.html</link>
+      <guid>https://anderzzz.github.io/writing/example-post.html</guid>
+      <pubDate>Wed, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <description>Why returning to books we've already read is not mere repetition, but a different act of reading entirely—and what the ancients understood about this that we've forgotten.</description>
+    </item>
+
+    <!-- Add new items here following the same pattern -->
+    <!--
+    <item>
+      <title>Your Post Title</title>
+      <link>https://anderzzz.github.io/writing/your-post.html</link>
+      <guid>https://anderzzz.github.io/writing/your-post.html</guid>
+      <pubDate>Day, DD Mon YYYY HH:MM:SS +0000</pubDate>
+      <description>Your post description/excerpt</description>
+    </item>
+    -->
+
+  </channel>
+</rss>
