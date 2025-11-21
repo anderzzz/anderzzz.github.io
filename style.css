@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-:root {
+body {
   --background: #fff5eb;
   --text: #191919;
   --text-muted: #666;
@@ -17,7 +17,7 @@
   --construction-border: #ffc107;
 }
 
-:root.dark-mode {
+body:has(#dark-mode-toggle:checked) {
   --background: #191919;
   --text: #fcfcfc;
   --text-muted: #999;
@@ -28,7 +28,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not(.light-mode) {
+  body:not(:has(#dark-mode-toggle)) {
     --background: #191919;
     --text: #fcfcfc;
     --text-muted: #999;
@@ -103,7 +103,11 @@ header {
 }
 
 /* Dark mode toggle */
-.theme-toggle {
+#dark-mode-toggle {
+  display: none;
+}
+
+.theme-toggle-label {
   position: absolute;
   top: 0;
   right: 0;
@@ -111,18 +115,22 @@ header {
   border: 1px solid var(--border);
   border-radius: 4px;
   padding: 0.4rem 0.75rem;
-  font-size: 0.85rem;
-  font-family: inherit;
-  color: var(--text-muted);
+  font-size: 1rem;
   cursor: pointer;
   transition: all 0.2s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  user-select: none;
 }
 
-.theme-toggle:hover {
-  color: var(--text);
+.theme-toggle-label:hover {
   border-color: var(--accent);
+}
+
+.theme-toggle-label::before {
+  content: "🌙";
+}
+
+#dark-mode-toggle:checked + .theme-toggle-label::before {
+  content: "☀";
 }
 
 nav {
