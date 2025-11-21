@@ -8,21 +8,31 @@
 }
 
 :root {
-  --background: #fcfcfc;
+  --background: #fff5eb;
   --text: #191919;
   --text-muted: #666;
-  --accent: #486f38;
-  --border: #e0e0e0;
+  --accent: #1b5420;
+  --border: #e0d5c7;
   --construction-bg: #fff3cd;
   --construction-border: #ffc107;
 }
 
+:root.dark-mode {
+  --background: #191919;
+  --text: #fcfcfc;
+  --text-muted: #999;
+  --accent: #fff2de;
+  --border: #333;
+  --construction-bg: #3d3416;
+  --construction-border: #ffc107;
+}
+
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #1a1a1a;
-    --text: #e8e8e8;
+  :root:not(.light-mode) {
+    --background: #191919;
+    --text: #fcfcfc;
     --text-muted: #999;
-    --accent: #6b9d5a;
+    --accent: #fff2de;
     --border: #333;
     --construction-bg: #3d3416;
     --construction-border: #ffc107;
@@ -89,6 +99,30 @@ body {
 
 header {
   margin-bottom: 4rem;
+  position: relative;
+}
+
+/* Dark mode toggle */
+.theme-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+  border-color: var(--accent);
 }
 
 nav {
