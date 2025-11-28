@@ -4,29 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="author" content="Anders">
-  <meta name="description" content="This is Anders, a writer and thinker interested in literature, history, philosophy, and the classical tradition. What This Site Is A space for longer-form...">
+  <meta name="author" content="Anders Öhrn">
+  <meta name="description" content="I'm Anders Öhrn, and my career has been a journey from bits to atoms and back again. Background I started as a chemist, moved into computational chemistry,...">
 
-  <title>About — Anders</title>
+  <title>About — Good Bits and Atoms</title>
 
   <link rel="canonical" href="./about.html">
 
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Anders">
+  <meta property="og:site_name" content="Good Bits and Atoms">
   <meta property="og:title" content="About">
-  <meta property="og:description" content="This is Anders, a writer and thinker interested in literature, history, philosophy, and the classical tradition. What This Site Is A space for longer-form...">
+  <meta property="og:description" content="I'm Anders Öhrn, and my career has been a journey from bits to atoms and back again. Background I started as a chemist, moved into computational chemistry,...">
   <meta property="og:url" content="./about.html">
   <meta property="og:image" content="./images/favicon.svg">
   <meta property="og:locale" content="en">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="About">
-  <meta name="twitter:description" content="This is Anders, a writer and thinker interested in literature, history, philosophy, and the classical tradition. What This Site Is A space for longer-form...">
+  <meta name="twitter:description" content="I'm Anders Öhrn, and my career has been a journey from bits to atoms and back again. Background I started as a chemist, moved into computational chemistry,...">
   <meta name="twitter:image" content="./images/favicon.svg">
 
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
   <link rel="stylesheet" href="/style.css">
-  <link rel="alternate" type="application/rss+xml" title="Anders" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Good Bits and Atoms" href="/feed.xml">
 
 </head>
 <body>
@@ -37,11 +37,10 @@
   <header>
     <input type="checkbox" id="dark-mode-toggle" aria-label="Toggle dark mode">
     <label for="dark-mode-toggle" class="theme-toggle-label"></label>
-    <h1>Anders</h1>
+    <h1>Good Bits and Atoms</h1>
     <nav>
       <a href="/">Home</a>
       <a href="/about.html">About</a>
-      <a href="/writing/">Writing</a>
     </nav>
   </header>
 
@@ -49,24 +48,40 @@
 <article>
   <h2>About</h2>
 
-  <p>This is Anders, a writer and thinker interested in literature, history, philosophy, and the classical tradition.</p>
-<h2>What This Site Is</h2>
-<p>A space for longer-form writing—essays, reflections, and arguments about books, ideas, and the enduring questions that ancient and modern thinkers have grappled with.</p>
-<p>The writing here tends toward:
-- <strong>Literature</strong>: How we read, what we read, and why certain books endure
-- <strong>History</strong>: Not just what happened, but how we understand what happened
-- <strong>Philosophy</strong>: Ideas about knowledge, ethics, meaning, and how to live
-- <strong>Classical Studies</strong>: Greek and Roman thought, literature, and their influence on Western intellectual history</p>
-<h2>Why This Exists</h2>
-<p>Most online writing is optimized for speed—hot takes, quick threads, disposable content. This site is deliberately slower. The essays here are meant to be read carefully, perhaps more than once.</p>
-<p>The goal isn't to persuade you of a particular worldview, but to think through difficult questions with clarity and honesty. Sometimes that means defending unpopular positions. Sometimes it means changing my mind.</p>
+  <p>I'm Anders Öhrn, and my career has been a journey from bits to atoms and back again.</p>
+<h2>Background</h2>
+<p>I started as a chemist, moved into computational chemistry, dove into mathematics, led technology as CTO for a consumer electronics company, and now work in AI development. Throughout this trajectory, the constant has been seeing information as fundamental—the bits that move atoms, the patterns that shape matter.</p>
+<p>That perspective colors everything I write here. Whether examining policy principles, technological change, or how we make decisions under uncertainty, I tend to look for the underlying patterns and first principles.</p>
+<h2>What You'll Find Here</h2>
+<p>This site is for longer-form thinking about:
+- Decision-making frameworks and their limitations
+- Technology and its second-order effects
+- Policy, institutions, and unexamined assumptions
+- Philosophy, particularly when it intersects with science and technology
+- Occasionally: literature, history, and classical studies</p>
+<p>The writing aims to be clear and direct. I prefer examining ideas on their merits over following any particular ideological line. Sometimes that means defending unpopular positions. Sometimes it means changing my mind.</p>
+<h2>Philosophy</h2>
+<p>Most online writing optimizes for engagement—hot takes, quick reactions, disposable content. This site deliberately aims for depth over speed. The essays here are meant to be read carefully, perhaps more than once.</p>
+<p>I'm not trying to build an audience or personal brand. This is a space for working through difficult questions honestly, in public, with the benefit of feedback from readers who care about getting things right.</p>
 <h2>Contact</h2>
-<p>This site doesn't have comments, but you can reach me via <a href="mailto:you@example.com">email</a> if you'd like to discuss something I've written.</p>
+<p>You can reach me via <a href="mailto:your-email@example.com">email</a> if you'd like to discuss something I've written. I don't have comments enabled, but I do appreciate thoughtful responses.</p>
 </article>
   </main>
 
   <footer>
-    <p>&copy; 2025 Anders. <a href="/writing/">More writing</a> or subscribe via <a href="/feed.xml">RSS</a>.</p>
+    <p>&copy; 2025 Anders Öhrn. Subscribe via <a href="/feed.xml">RSS</a>.</p>
   </footer>
+
+  <script>
+    // Restore dark mode preference
+    const toggle = document.getElementById('dark-mode-toggle');
+    const darkMode = localStorage.getItem('darkMode') === 'true';
+    if (darkMode) toggle.checked = true;
+
+    // Save preference when changed
+    toggle.addEventListener('change', () => {
+      localStorage.setItem('darkMode', toggle.checked);
+    });
+  </script>
 </body>
 </html>
