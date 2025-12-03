@@ -6,70 +6,70 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/about.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/category/essays.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/decision-making.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/environment.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/philosophy.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/policy.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/politics.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2025-12-03T15:59:06-00:00</lastmod>
+<lastmod>2025-12-03T16:02:34-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
