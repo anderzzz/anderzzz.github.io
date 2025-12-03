@@ -292,3 +292,109 @@ article figcaption {
     margin-bottom: 0.5rem;
   }
 }
+
+/* About page variant controls */
+.variant-controls {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0 3rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.variant-controls input[type="radio"] {
+  display: none;
+}
+
+.variant-controls label {
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--text);
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.variant-controls label:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.variant-controls input[type="radio"]:checked + label {
+  background-color: var(--accent);
+  color: var(--background);
+  border-color: var(--accent);
+}
+
+/* Variant content visibility - uses :has() like dark mode */
+.variant-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+body:has(#variant-standard-bio:checked) .variant-content[data-variant="standard-bio"] {
+  display: block;
+  opacity: 1;
+}
+
+body:has(#variant-sonnet:checked) .variant-content[data-variant="sonnet"] {
+  display: block;
+  opacity: 1;
+}
+
+body:has(#variant-patent-claim:checked) .variant-content[data-variant="patent-claim"] {
+  display: block;
+  opacity: 1;
+}
+
+body:has(#variant-linkedin:checked) .variant-content[data-variant="linkedin"] {
+  display: block;
+  opacity: 1;
+}
+
+/* Bio photo container */
+.bio-photos {
+  position: relative;
+  min-height: 200px;
+}
+
+/* Individual bio photos */
+.bio-photo {
+  float: left;
+  width: 300px;
+  max-width: 40%;
+  margin: 0 2rem 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease;
+}
+
+/* Dark mode adjustments for photos */
+#dark-mode-toggle:checked ~ main .bio-photo {
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Clear floats after variant content */
+.variant-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive: photos on mobile */
+@media (max-width: 768px) {
+  .bio-photo {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1.5rem 0;
+  }
+}
