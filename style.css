@@ -360,6 +360,11 @@ body:has(#variant-linkedin:checked) .variant-content[data-variant="linkedin"] {
   opacity: 1;
 }
 
+body:has(#variant-short:checked) .variant-content[data-variant="short"] {
+  display: block;
+  opacity: 1;
+}
+
 /* Bio photo container */
 .bio-photos {
   position: relative;
