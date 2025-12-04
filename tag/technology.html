@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="Anders Öhrn">
+  <meta name="description" content="Essays and reflections by Anders Öhrn on technology, society, and philosophy, drawn from years in global startups and the pursuit of knowing and doing good.">
+
+  <title>Good Bits and Atoms - technology tag</title>
+
+  <link rel="canonical" href="../">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Good Bits and Atoms">
+  <meta property="og:title" content="Good Bits and Atoms">
+  <meta property="og:description" content="Essays and reflections by Anders Öhrn on technology, society, and philosophy, drawn from years in global startups and the pursuit of knowing and doing good.">
+  <meta property="og:url" content="../">
+  <meta property="og:image" content="../images/default_writing_logo.png">
+  <meta property="og:locale" content="en">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Good Bits and Atoms">
+  <meta name="twitter:description" content="Essays and reflections by Anders Öhrn on technology, society, and philosophy, drawn from years in global startups and the pursuit of knowing and doing good.">
+  <meta name="twitter:image" content="../images/default_writing_logo.png">
+
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Good Bits and Atoms" href="/feed.xml">
+
+</head>
+<body>
+  <header>
+    <input type="checkbox" id="dark-mode-toggle" aria-label="Toggle dark mode">
+    <label for="dark-mode-toggle" class="theme-toggle-label"></label>
+    <h1>Good Bits and Atoms</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+<p class="intro">
+  This is the personal site of <a href="/about.html">Anders Öhrn</a>. I gather my more personal essays and reflections here—writing on technology, society, and philosophy, drawn from years in global startups and the pursuit of knowing and doing good. If you're looking for my hot takes, the company news, or dopamine-friendly memes, that is elsewhere.
+</p>
+
+<ul class="article-list">
+  <li>
+    <span class="article-date">4 December 2025</span>
+    <h2 class="article-title">
+      <a href="../writing/opus_macaskill_reward.html">When Opus Writes Poems</a> — <span class="article-subtitle">Sharing of a poem composed by Claude (Opus 4.5) when given a MacAskill reward, that is to freely spend tokens to write whatever Claude 'wants'.</span>    </h2>
+  </li>
+</ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Anders Öhrn. Subscribe via <a href="/feed.xml">RSS</a>.</p>
+  </footer>
+
+  <script>
+    // Restore dark mode preference
+    const toggle = document.getElementById('dark-mode-toggle');
+    const darkMode = localStorage.getItem('darkMode') === 'true';
+    if (darkMode) toggle.checked = true;
+
+    // Save preference when changed
+    toggle.addEventListener('change', () => {
+      localStorage.setItem('darkMode', toggle.checked);
+    });
+
+    // Restore about page variant preference (if on about page)
+    const variantInputs = document.querySelectorAll('input[name="about-variant"]');
+    if (variantInputs.length > 0) {
+      const savedVariant = localStorage.getItem('aboutVariant');
+      if (savedVariant) {
+        const variantInput = document.getElementById('variant-' + savedVariant);
+        if (variantInput) variantInput.checked = true;
+      }
+
+      // Function to show/hide photos based on selected variant
+      function updatePhotos() {
+        const selectedVariant = document.querySelector('input[name="about-variant"]:checked').value;
+        const photos = document.querySelectorAll('.bio-photo');
+
+        photos.forEach(photo => {
+          const variants = photo.getAttribute('data-variants').split(',');
+          if (variants.includes(selectedVariant)) {
+            photo.style.display = 'block';
+          } else {
+            photo.style.display = 'none';
+          }
+        });
+      }
+
+      // Update photos on page load
+      updatePhotos();
+
+      // Save preference and update photos when changed
+      variantInputs.forEach(input => {
+        input.addEventListener('change', () => {
+          localStorage.setItem('aboutVariant', input.value);
+          updatePhotos();
+        });
+      });
+    }
+  </script>
+</body>
+</html>
