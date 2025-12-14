@@ -277,6 +277,83 @@ article figcaption {
   margin-right: auto;
 }
 
+/* About page variant controls */
+.variant-controls {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.variant-controls input[type="radio"] {
+  display: none;
+}
+
+.variant-controls label {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.variant-controls label:hover {
+  border-color: var(--accent);
+}
+
+.variant-controls input:checked + label {
+  background-color: var(--accent);
+  color: var(--background);
+  border-color: var(--accent);
+}
+
+/* Hide all variant content by default */
+.variant-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show content for selected variant */
+body:has(#variant-standard-bio:checked) .variant-content[data-variant="standard-bio"] {
+  display: block;
+  opacity: 1;
+}
+
+body:has(#variant-sonnet:checked) .variant-content[data-variant="sonnet"] {
+  display: block;
+  opacity: 1;
+}
+
+body:has(#variant-patent-claim:checked) .variant-content[data-variant="patent-claim"] {
+  display: block;
+  opacity: 1;
+}
+
+body:has(#variant-linkedin:checked) .variant-content[data-variant="linkedin"] {
+  display: block;
+  opacity: 1;
+}
+
+body:has(#variant-short:checked) .variant-content[data-variant="short"] {
+  display: block;
+  opacity: 1;
+}
+
+/* Bio photos styling */
+.bio-photos {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bio-photo {
+  max-width: 200px;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
 /* Responsive adjustments */
 @media (max-width: 640px) {
   body {
