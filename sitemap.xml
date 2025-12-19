@@ -5,161 +5,203 @@ xmlns:xhtml="http://www.w3.org/1999/xhtml"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/about.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/about.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/categories.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/categories.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/essays.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/category/essays.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/ai.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/ai.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/consciousness.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/citizenship.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/creativity.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/consciousness.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/decision-making.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/creativity.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/entrepreneurship.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/decision-making.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/environment.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/education.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/history.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/entrepreneurship.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/meaning.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/environment.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/narrative.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/history.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/philosophy.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/literacy.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/poetry.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/mathematics.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/policy.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/meaning.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/politics.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/narrative.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/technology.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/philosophy.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tags.html</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/poetry.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/writing/</loc>
-<lastmod>2025-12-15T07:10:22-00:00</lastmod>
+<loc>https://anderzzz.github.io/tag/policy.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/writing/opus_macaskill_reward.html</loc>
+<loc>https://anderzzz.github.io/tag/politics.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://anderzzz.github.io/tag/society.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://anderzzz.github.io/tag/technology.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://anderzzz.github.io/tags.html</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://anderzzz.github.io/writing/</loc>
+<lastmod>2025-12-19T21:32:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://anderzzz.github.io/writing/math_civilization.html</loc>
+<lastmod>2025-12-19T00:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://anderzzz.github.io/writing/opus_macaskill_reward.html</loc>
 <lastmod>2025-12-04T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
-<loc>/writing/precaution.html</loc>
+<loc>https://anderzzz.github.io/writing/precaution.html</loc>
 <lastmod>2025-11-28T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
-<loc>/writing/stories_we_tell.html</loc>
+<loc>https://anderzzz.github.io/writing/stories_we_tell.html</loc>
 <lastmod>2025-12-14T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
