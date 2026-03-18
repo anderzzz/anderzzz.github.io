@@ -1,5 +1,5 @@
 /* Reset and base styles */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Playfair+Display:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap');
 
 * {
   margin: 0;
@@ -41,7 +41,7 @@ body:has(#dark-mode-toggle:checked) {
 
 /* Typography */
 body {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'SF Pro', 'Segoe UI', sans-serif;
+  font-family: 'Source Serif 4', 'Garamond', 'Georgia', serif;
   font-size: 18px;
   line-height: 1.6;
   color: var(--text);
@@ -50,7 +50,8 @@ body {
 }
 
 h1, h2, h3 {
-  font-weight: 600;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -115,6 +116,7 @@ header {
   border: 1px solid var(--border);
   border-radius: 4px;
   padding: 0.4rem 0.75rem;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -155,6 +157,7 @@ nav::before {
 
 nav a {
   margin: 0 1rem;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -201,6 +204,7 @@ footer::before {
 }
 
 .article-date {
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.85rem;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -210,9 +214,10 @@ footer::before {
 }
 
 .article-title {
-  font-size: 1.35rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 700;
   line-height: 1.4;
+  margin-bottom: 0.25rem;
 }
 
 .article-title a {
@@ -220,8 +225,12 @@ footer::before {
 }
 
 .article-subtitle {
-  color: var(--text);
-  font-weight: 400;
+  display: block;
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-family: 'Source Serif 4', 'Garamond', 'Georgia', serif;
+  font-style: italic;
+  margin-top: 0.25rem;
 }
 
 /* Article content */
@@ -298,6 +307,7 @@ article figcaption {
   padding: 0.5rem 1rem;
   border: 1px solid var(--border);
   border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   transition: all 0.2s ease;
 }
